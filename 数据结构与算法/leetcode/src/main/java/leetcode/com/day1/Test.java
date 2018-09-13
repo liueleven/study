@@ -1,13 +1,15 @@
 package leetcode.com.day1;
 
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
 public class Test {
 
     public static void main(String[] args) {
-        SumOfNum();
+        createNewLinkendList();
+//        SumOfNum();
     }
 
     /**
@@ -31,5 +33,27 @@ public class Test {
                 break;
             }
         }
+    }
+
+    /**
+     * 给定两个非空链表来表示两个非负整数。位数按照逆序方式存储，它们的每个节点只存储单个数字。将两数相加返回一个新的链表。
+     * 你可以假设除了数字 0 之外，这两个数字都不会以零开头。
+     * 示例：
+     * 输入：(2 -> 4 -> 3) + (5 -> 6 -> 4)
+     * 输出：7 -> 0 -> 8
+     * 原因：342 + 465 = 807
+     */
+    public static void createNewLinkendList() {
+        int[] linkendOne = {2,4,3};
+        int[] linkendTwo = {5,6,4};
+        StringBuilder sb1 = new StringBuilder();
+        StringBuilder sb2 = new StringBuilder();
+        for(int i=0; i<linkendOne.length; i++) {
+            sb1.append(linkendOne[i]);
+            sb2.append(linkendTwo[i]);
+        }
+        int num1 = Integer.valueOf(sb1.toString());
+        int num2 = Integer.valueOf(sb2.toString());
+        System.out.println(num1 + num2);
     }
 }
