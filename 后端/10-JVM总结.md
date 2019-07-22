@@ -2,7 +2,7 @@
 
 记录自己关于JVM日常学习和遇到的问题
 
-![image]([https://raw.githubusercontent.com/liueleven/study/master/%E5%9B%BE%E5%BA%93/22-jvm/10-JVM%E6%80%BB%E7%BB%93.png](https://raw.githubusercontent.com/liueleven/study/master/图库/22-jvm/10-JVM总结.png))
+![image]([https://raw.githubusercontent.com/liueleven/study/master/%E5%9B%BE%E5%BA%93/22-jvm/10-JVM%E6%80%BB%E7%BB%93.png]
 
 
 
